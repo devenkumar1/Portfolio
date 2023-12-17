@@ -1,0 +1,269 @@
+/* global section */
+* {
+  margin: 0px;
+  padding: 0px;
+  flex-wrap: wrap;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1.5px;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 25px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 25px;
+}
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+h3 {
+  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  max-width: 100vw;
+}
+
+/* Navbar-section */
+.navbar {
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1.3rem;
+  background-color: transparent;
+  background-image: linear-gradient(
+    90deg,
+    rgba(5, 5, 5, 1) 0%,
+    rgba(67, 67, 67, 1) 73%
+  );
+  color: white;
+}
+
+.brand-logo {
+  height: 7rem;
+  margin-top: 1.2rem;
+
+  border: none;
+}
+.nav-right {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  text-align: center;
+  align-items: center;
+}
+.nav-bottom {
+  display: flex;
+  gap: 2rem;
+  text-align: center;
+  margin-left: 30%;
+  margin-top: 2rem;
+}
+.c1 {
+  padding-top: 5rem;
+}
+
+.tag-line h3 {
+  margin-top: 2rem;
+}
+
+/* Hero section */
+.profile-image {
+  height: 32rem;
+  box-shadow: 0 0 10px 13px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  margin-bottom: 3rem;
+}
+.profile-image:hover {
+  box-shadow: 0 0 4px 5px rgba(42, 91, 255, 0.3);
+  cursor: pointer;
+}
+
+.menu-img {
+  height: 3rem;
+  display: none;
+  margin-top: 1rem;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: transparent;
+  background-image: linear-gradient(
+    90deg,
+    rgba(5, 5, 5, 1) 0%,
+    rgba(67, 67, 67, 1) 73%
+  );
+  color: white;
+  min-height: 90vh;
+  padding-top: 2rem;
+}
+
+.left-hero {
+  padding-top: 5rem;
+}
+.skills {
+  padding-top: 2rem;
+}
+.exp-btn {
+  background-color: transparent;
+  padding: 20px 30px;
+  border-radius: 7px;
+  color: white;
+  font-size: 1.3rem;
+  border: 1px solid white;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.exp-btn:hover {
+  background-color: blue;
+  scale: 1.1;
+  font-size: 1.6rem;
+  transition: linear 0.2s;
+  border: transparent;
+}
+.n1 a:hover {
+  color: rgb(69, 69, 255);
+  transition: 0.3s ease-in-out;
+}
+.n2 a:hover {
+  color: rgb(69, 69, 255);
+  transition: 0.3s ease-in-out;
+}
+.n3 a:hover {
+  color: rgb(69, 69, 255);
+  transition: 0.3s ease-in-out;
+}
+.n4 a:hover {
+  color: rgb(69, 69, 255);
+  transition: 0.3s ease-in-out;
+}
+ 
+/*main-section*/
+.heading {
+  text-align: center;
+  font-weight: 800;
+  font-size: 3rem;
+  color: rgb(245, 110, 110);
+  margin-bottom: 5rem;
+}
+.skills {
+  background: rgb(253, 255, 170);
+  background: radial-gradient(
+    circle,
+    rgba(253, 255, 170, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+.skill-img {
+  height: 7rem;
+  margin-top: 2rem;
+}
+.skillrow-1 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.skillrow-2 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 2rem;
+  padding-bottom: 10rem;
+}
+
+.temp {
+  height: 100vh;
+}
+.projects {
+  color: white;
+  background-color: transparent;
+  /* background: rgb(58,34,195);
+background: linear-gradient(72deg, rgba(58,34,195,1) 0%, rgba(45,192,253,1) 100%); */
+  background: rgb(52, 135, 255);
+  background: radial-gradient(
+    circle,
+    rgba(52, 135, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.projects h1 {
+  color: rgb(30, 19, 19);
+  padding-top: 1rem;
+}
+.projects a {
+  color: black;
+}
+.project-row-1 {
+  display: flex;
+  justify-content: space-around;
+}
+.project-row-2 {
+  display: flex;
+  justify-content: space-around;
+}
+.project-img {
+  height: 15rem;
+  margin-top: 2rem;
+  border-radius: 6px;
+}
+
+.txt_cntr h3 {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+/*bottom*/
+.contact {
+  background-color: black;
+  min-height: 70vh;
+  color: white;
+  font-weight: 800;
+}
+
+.partways-bottoms {
+  display: flex;
+  justify-content: space-around;
+}
+.contact h2 {
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.contact-icons {
+  height: 2rem;
+  margin-left: 4rem;
+}
+.contact-right img {
+  margin-bottom: 3rem;
+}
+.end {
+  text-align: center;
+  margin: auto;
+}
