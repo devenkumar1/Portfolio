@@ -7,6 +7,7 @@
   letter-spacing: 1.5px;
   box-sizing: border-box;
 }
+
 h1 {
   font-size: 3rem;
   font-weight: 700;
@@ -84,7 +85,7 @@ h3 {
   padding-top: 5rem;
 }
 
-.tag-line h3 {
+.tag-line {
   margin-top: 2rem;
 }
 
@@ -95,11 +96,37 @@ h3 {
   border-radius: 15px;
   margin-bottom: 3rem;
 }
+
+.txt-animate::after {
+  content: '|';
+  display: inline-block;
+  animation: blink 0.7s infinite alternate;
+}
+
+@keyframes blink {
+  0%, 100% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+}
+
 .profile-image:hover {
   box-shadow: 0 0 4px 5px rgba(42, 91, 255, 0.3);
   cursor: pointer;
 }
 
+.txt-shad{
+  text-shadow: 0px 0px 10px  rgb(85, 85, 255),
+               0px 0px 10px   rgb(85, 85, 255),
+               0px 0px 10px  rgb(85, 85, 255),
+               0px 0px 14px   rgb(85, 85, 255);
+  
+  ;
+  font-size: 50px;
+  color: whitesmoke;
+}
 .menu-img {
   height: 3rem;
   display: none;
@@ -212,12 +239,14 @@ background: linear-gradient(72deg, rgba(58,34,195,1) 0%, rgba(45,192,253,1) 100%
 }
 
 .projects h1 {
-  color: rgb(30, 19, 19);
+ 
+  color: white;
   padding-top: 1rem;
 }
 .projects a {
   color: black;
 }
+
 .project-row-1 {
   display: flex;
   justify-content: space-around;
@@ -260,10 +289,18 @@ background: linear-gradient(72deg, rgba(58,34,195,1) 0%, rgba(45,192,253,1) 100%
   height: 2rem;
   margin-left: 4rem;
 }
+.contact-icons:hover{
+  scale: 1.5;
+  transition: 0.2s ease-in;
+} 
 .contact-right img {
   margin-bottom: 3rem;
 }
 .end {
   text-align: center;
   margin: auto;
+}
+
+.chng_clr a:hover{
+  color:blue;
 }
